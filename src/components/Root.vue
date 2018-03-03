@@ -4,17 +4,17 @@
 
 <script>
 export default {
-  data: function() {
+  data: function () {
     return {
       message: 'hello'
     }
   },
   computed: {
-    isVisible: function() {
+    isVisible: function () {
       if (this.message) {
-        return true;
+        return true
       } else {
-        return false;
+        return false
       }
     }
   }
@@ -25,9 +25,9 @@ export default {
 // langを指定すると、scssやsassでかける。その時は、scss-loaderが必要になる
 // scoped をつけると、そのスタイルはこのファイル内にとどまります。
 div {
-  text-align: center;
+  text-align: center
   p {
-    color: red;
+    color: red
   }
 }
 </style>
