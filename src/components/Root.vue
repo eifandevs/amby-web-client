@@ -1,33 +1,16 @@
 <template>
-  <div><p v-if="isVisible">{{ message }}</p></div>
+  <home></home>
 </template>
 
 <script>
+import Home from './Home.vue'
+
 export default {
-  data: function () {
-    return {
-      message: 'hello'
-    }
-  },
-  computed: {
-    isVisible: function () {
-      if (this.message) {
-        return true
-      } else {
-        return false
-      }
-    }
+  components: {
+    Home
   }
 }
 </script>
 
 <style lang="scss" scoped>
-// langを指定すると、scssやsassでかける。その時は、scss-loaderが必要になる
-// scoped をつけると、そのスタイルはこのファイル内にとどまります。
-div {
-  text-align: center
-  p {
-    color: red
-  }
-}
 </style>
