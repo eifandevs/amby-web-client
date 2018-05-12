@@ -1,9 +1,7 @@
 #!/bin/sh
 
-pushd /var/www/qass-news-client
+cd /var/www/qass-news-client
 
 # ビルド
 npm install
 npm run build
-
-popd
