@@ -11,8 +11,41 @@ body {
   justify-content: space-between;
 }
 .box {
-  height: 65px;
+  height: 78px;
+  margin-top: 10px;
   width: 100%;
   color: #777;
   border-bottom: solid 1px #c7c7cc;
+  overflow: hidden;
+}
+
+.row-container {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.row-box {
+  margin-right: 5px;
+}
+.row-box-img {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.row-box-img img {
+  width: 16px;
+  height: 16px
+}
+.date {
+  font-size: 12px !important;
+}
+.heading {
+  font-size: 15px !important;
+  overflow: hidden;
+  height: 3.6em;
+  line-height: 1.8;
 }
