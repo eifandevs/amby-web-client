@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+  display: block;
+  margin: 14px;
+}
+
+.logo {
+  color: #5F4B8B;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box {
+  width: 100%;
+  color: #777;
+}
+.title {
+  font-size: 14px !important;
+  font-weight: bold;
+}
+.message {
+  margin-top: 10px;
+  font-size: 12px !important;
+}
+.history {
+  margin-top: 10px;
+  font-size: 12px !important;
+}
